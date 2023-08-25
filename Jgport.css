@@ -1,0 +1,275 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(23, 6, 39);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: crimson;
+    transition: 0.6s;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 16vh;
+
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header a b{
+    color: black;
+    font-size: xx-large;
+    background-color: aliceblue;
+    border-radius: 50px;
+    animation-name: word;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes word {
+    25%{background-color: aqua;}
+    50%{background-color: yellow;}
+    75%{background-color: aqua;}
+    100%{background-color: yellow;}
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.mid h1 span{
+    font-size: 50px ;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+}
+
+.jg{
+    color:crimson;
+    margin-left: 0px;
+    padding-left: 20vh;
+    padding-top: 20px;
+    animation-name: range;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.jg i{
+    border-radius: 100px;
+}
+
+.navbar{
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-left: 100vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+}
+.mid{
+    color: white;
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.mid h2 span{
+    color: crimson;
+}
+.mid p i{
+    border: 1px solid crimson;
+    border-radius: 50px;
+    padding: 5px;
+    color: crimson;
+    text-shadow: 1px 1px 1px crimson;
+}
+.mid p i:hover{
+     transform: scale(1, -1);
+}
+.mid button{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 50px;
+}
+.mid button :hover{
+    background-color: crimson;
+}
+
+.mid{
+    margin-top: 150px ;
+}
+
+.mid1 img{
+    border-radius: 0%;
+    width: 80vh;
+    height: 400px;
+    margin-left: 30vh;
+    margin-top: 150px;
+}
+
+.mid img{
+    border-radius: 250px;
+    height: 150px;
+    margin-left: 0px;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change {
+    from{ transform: rotate(360deg); transform: scale(-1, 1); background-color: white;}
+    to{ background-color: white;}
+} 
+
+.content{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+#home{
+    margin-top: 100px;
+    display: flex;
+}
+
+/* section 2 about */
+#about{
+    display: flex;
+    margin-top: 70px;
+}
+.introp img{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 70vh;
+    height: 80vh;
+}
+
+.intro {
+    font-size: 20px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.intro h1{
+    color: crimson;
+}
+
+.subcontent{
+    color: white;
+}
+.subcontent{
+    display: flex;
+}
+
+/* section 3rd projects */
+section{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#projects{
+    margin-top: 20px;
+    display: flex;
+}
+.proj{
+ 
+    width: 100%;
+    margin-left: 0px;
+}
+
+.pic img{
+    border : 3px solid white;
+    width: 40vh;
+    height: 50vh;
+    margin-left: 90px;
+    margin-top: 5px;
+    
+    
+}
+
+
+.information{
+    border: 2px solid white;
+    width: 40vh;
+    height: 15vh;
+    margin-left: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: aqua;
+    background-color : black;
+    transform: scale(1);
+    transition: 1.3s ease-in-out;
+    font-family:monospace ;
+    
+}
+
+.information:hover{
+    width: 45vh;
+    background-color : crimson ;
+    transform: scale(1.5);
+    
+    
+    
+}
+
+
+#certificates{
+    
+    margin-top: 50px;
+    color: crimson;
+    
+    /* background-color: blue; */
+}
+
+.certi{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px ;
+}
+.certi h1{
+    font-size: xx-large;
+}
+#certificates img{
+    width: 50vh;
+    height: 50vh;
+}
+#certificates img:hover{
+    width: 70vh ;
+    height: 60vh;
+}
+#contact{
+    margin-top: 50px;
+    
+}
+
+.cont{
+    margin-top: 70px;
+    margin-left: 70vh ;
+    color: crimson;
+    font-size: xx-large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cont1{
+    font-size: x-large;
+    display: flex;
+    height: 60vh;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+    font-family: monospace;
+}
